@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #24282b;
+    height: 100px;
+    width: 100%;
+    border-bottom: 5px #1293d4 solid; 
+ }
+ 
+ ul{
+    float: right;  
+    margin-right: 150px;
+}
+ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+}
+ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+ul li .active{
+    color: #1293d4
+}
+
+.diseñomulti{
+    float: left;
+    margin-left: 150px;
+    font-size: 30px;
+}
+.diseñomulti li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 0px;
+    color: white;
+
+}
+
+.diseñomulti .multi{
+    color: #1293d4
+}
+.menubajo{
+    background-color: #24282b;
+    height: 100px;
+    
+    }
+    .menubajo h1{
+        color: white;
+        margin-left: 190px;
+    }
+    
+    .menubajo .gmail{
+        float: right;
+        margin-right: 180px;
+    }
+    
+    .menubajo .gmail input{
+        height: 30px;
+        width: 300px;
+    }
+    
+    .menubajo .gmail .button{
+        height: 30px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        width: 100px;
+    }
+
+
+    .que_hacemos{
+        color: white;
+        background-color: #34383b;
+        float: right;
+        margin-right: 200px;
+        height: 220px;
+        width: 300px;
+        margin-top:20px ;
+    }
+    
+    .que_hacemos p{
+        padding: 15px 30px;
+    }
+    
+.que_hacemos h2{
+    padding: 15px 30px;
+}
+
+.derecha{
+    float: right;
+}
+
+.contenedor{
+    float: left;
+    margin-top: 20px;
+    margin-left:150px;
+    width: 800px;
+    font-size: 17px;
+}
+
+.imagen img{
+    width: 300px;
+    height: 220px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.contenedor form input{
+    height: 30px;
+    width: 800px;
+    border: 1px gray solid;
+    margin-top: 5px;
+}
+    
+.contenedor form input[type="submit"]{
+    background-color: orangered;
+    color: white;
+}
+
+.contenedor form input[id="mensaje"]{
+    height: 165px;
+}
+
+footer{
+    background-color:  #1293d4;
+    margin-top: 550px;
+    height: 110px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+}

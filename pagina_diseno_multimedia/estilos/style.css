@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background: url(../images/cabecera.jpg);
+    background-size: 100% 600px ;
+    background-repeat: no-repeat;
+}
+ header{
+    background-color: #24282b;
+    height: 100px;
+    width: 100%;
+    border-bottom: 5px #1293d4 solid; 
+ }
+ 
+ ul{
+    float: right;  
+    margin-right: 150px;
+}
+ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+}
+ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+ul li .active{
+    color: #1293d4
+}
+
+.diseñomulti{
+    float: left;
+    margin-left: 150px;
+    font-size: 30px;
+}
+.diseñomulti li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 0px;
+    color: white;
+
+}
+
+.diseñomulti .multi{
+    color: #1293d4
+}
+
+.menucentro{
+    color: white;
+    margin-top: 100px;
+    width: 60%;
+   margin-left: 20%;
+}
+
+.menucentro p{
+    font-size: 60px;
+}
+.menubajo{
+background-color: #24282b;
+margin-top: 100px;
+height: 100px;
+
+}
+.menubajo h1{
+    color: white;
+    margin-left: 190px;
+}
+
+.menubajo .gmail{
+    float: right;
+    margin-right: 190px;
+}
+
+.menubajo .gmail input{
+    height: 30px;
+    width: 300px;
+}
+
+.menubajo .gmail .button{
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 100px;
+}
+
+.menublanco{
+    background-color: white;
+    height: 300px;
+}
+
+.menublanco img{
+    width: 70px;
+    height: 70px;
+}
+
+.menublanco .cajah{
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 100px;
+    width:300px;
+    float: left;
+
+}
+
+.menublanco .cajac{
+    margin-top: 30px;
+    margin-left: 70px;
+    height: 100px;
+    width:300px;
+    float: left;
+}
+
+.menublanco .cajab{
+    margin-top: 30px;
+margin-left: 70px;
+    height: 100px;
+    width:300px;
+    float: left;
+
+}
+
+footer{
+    background-color:  #1293d4;
+    height: 110px;
+    color: white;
+    font-size: 15px;
+}
